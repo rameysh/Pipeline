@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                checkout([$class: 'GitSCM', https://github.com/rameysh/Pipeline.git) 
+                git 'https://github.com/rameysh/Pipeline.git' 
             }
            }
    
