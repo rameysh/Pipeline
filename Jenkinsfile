@@ -1,9 +1,9 @@
 pipeline {
     agent any 
     stages {
-        stage('Stage 1') {
+        stage('Checkout') {
             steps {
-                echo 'Hello world!' 
+                checkout([$class: 'GitSCM', https://github.com/rameysh/Pipeline.git) 
             }
         }
     }
