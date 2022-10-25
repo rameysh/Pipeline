@@ -5,6 +5,11 @@ pipeline {
             steps {
                 checkout([$class: 'GitSCM', https://github.com/rameysh/Pipeline.git) 
             }
+           }
+   
+        stage('done') {
+            step
+            }  
         }
     }
 }
