@@ -7,7 +7,7 @@ pipeline {
             }
            }
    
-        stage('done') {
+        stage2('done') {
             step
             }  
         }
