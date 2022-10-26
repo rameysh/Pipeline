@@ -1,5 +1,3 @@
 # Pipeline
 
-check commits1
-
-new
+This is a readme file
